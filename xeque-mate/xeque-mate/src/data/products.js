@@ -2,60 +2,87 @@
 // available: true (à venda) | false (esgotado) | "unavailable" (temporariamente indisponível)
 // stockManaged: true + stockQuantity: N  -> controla quantidade. false -> sem controle.
 // priceFrom: true -> mostra "a partir de" (itens com opções/variações).
+// CATEGORIAS: a ordem desta lista é a ordem das seções no site. O campo category de cada produto usa o id.
 // Para desligar uma promoção: discountActive: false (o preço original nunca é apagado).
 
 export const categories = [
   {
     "id": "promocoes",
-    "name": "Promoções"
+    "name": "Promoções",
+    "short": "Promoções",
+    "subtitle": "Produtos em promoção."
   },
   {
     "id": "sobremesas",
-    "name": "Sobremesa"
+    "name": "Sobremesas",
+    "short": "Sobremesas",
+    "subtitle": "Produtos e preços das sobremesas."
   },
   {
     "id": "barcas",
-    "name": "Barcas"
+    "name": "Barcas",
+    "short": "Barcas",
+    "subtitle": "Produtos e preços das barcas."
   },
   {
     "id": "entradas",
-    "name": "Entradas"
-  },
-  {
-    "id": "chicken",
-    "name": "Burguer Chicken"
+    "name": "Entradas",
+    "short": "Entradas",
+    "subtitle": "Produtos e preços das entradas."
   },
   {
     "id": "burguer-bovino",
-    "name": "Burguer Bovino"
+    "name": "Burgers Bovinos",
+    "short": "Bovinos",
+    "subtitle": "Produtos e preços dos burgers bovinos."
+  },
+  {
+    "id": "chicken",
+    "name": "Burgers Chicken",
+    "short": "Chicken",
+    "subtitle": "Produtos e preços dos burgers de frango."
   },
   {
     "id": "especiais",
-    "name": "Especiais"
+    "name": "Especiais",
+    "short": "Especiais",
+    "subtitle": "Produtos e preços dos burgers especiais."
   },
   {
     "id": "toscano-burgers",
-    "name": "Toscano Burgers"
+    "name": "Toscano Burgers",
+    "short": "Toscano",
+    "subtitle": "Produtos e preços dos Toscano Burgers."
   },
   {
     "id": "combos",
-    "name": "Combos"
+    "name": "Combos",
+    "short": "Combos",
+    "subtitle": "Combinações de produtos disponíveis."
   },
   {
     "id": "exclusivos",
-    "name": "Exclusivos"
+    "name": "Exclusivos",
+    "short": "Exclusivos",
+    "subtitle": "Produtos exclusivos da casa."
   },
   {
     "id": "bebidas",
-    "name": "Refrigerantes e Não Alcoólicos"
+    "name": "Bebidas Não Alcoólicas",
+    "short": "Bebidas",
+    "subtitle": "Refrigerantes, águas e outras bebidas."
   },
   {
     "id": "adicionais",
-    "name": "Adicionais"
+    "name": "Adicionais",
+    "short": "Adicionais",
+    "subtitle": "Itens extras para o seu pedido."
   },
   {
     "id": "cervejas",
-    "name": "Cervejas"
+    "name": "Cervejas",
+    "short": "Cervejas",
+    "subtitle": "Produtos e preços das cervejas."
   }
 ];
 

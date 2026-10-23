@@ -1,0 +1,9 @@
+.cartbtn,.card button,.wa{background:var(--gold);color:#000;border:0;border-radius:8px;padding:10px 14px;font-weight:600}
+.cart{position:fixed;inset:0 0 0 auto;width:min(420px,100%);background:#111;border-left:1px solid #333;z-index:10;overflow:auto;padding:16px;display:flex;flex-direction:column;gap:12px}
+.cart header{display:flex;justify-content:space-between;align-items:center}.cart h2{margin:0}
+.x{background:none;border:0;color:var(--tx);font-size:1.2rem}
+.line{display:grid;grid-template-columns:1fr auto auto;gap:8px;align-items:center;border-bottom:1px solid #222;padding-bottom:8px}
+.qty{display:flex;align-items:center;gap:8px}.qty button{width:30px;height:30px;border-radius:6px;border:1px solid #444;background:#1c1c1c;color:var(--tx)}
+.addons{grid-column:1/-1;display:grid;gap:4px;font-size:.85rem}
+textarea{min-height:70px;border-radius:8px;background:var(--panel);color:var(--tx);border:1px solid #333;padding:8px}
+.total{display:flex;justify-content:space-between;font-size:1.1rem}.wa{width:100%;padding:14px}

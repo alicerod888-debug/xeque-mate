@@ -1,22 +1,30 @@
 import { useMemo, useState } from "react";
 import Hero from "./components/Hero.jsx";
-import ProductCard from "./components/ProductCard.jsx";
+import MenuCategory from "./components/MenuCategory.jsx";
+import CategoryNav from "./components/CategoryNav.jsx";
 import Cart from "./components/Cart.jsx";
 import { products, categories } from "./data/products.js";
 import { config } from "./data/config.js";
 import { maxQty } from "./lib/pricing.js";
 
+const norm = (s) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
 export default function App() {
-  const [cat, setCat] = useState("todos");
   const [q, setQ] = useState("");
   const [lines, setLines] = useState([]);
   const [note, setNote] = useState("");
   const [open, setOpen] = useState(false);
 
-  const list = useMemo(() => products.filter((p) =>
-    (config.showPending || !p.pending) &&
-    (cat === "todos" || p.category === cat) &&
-    p.name.toLowerCase().includes(q.toLowerCase())), [cat, q]);
+  // Agrupa os produtos por categoria automaticamente (ordem = ordem de `categories`).
+  const sections = useMemo(() => {
+    const term = norm(q);
+    const visible = products.filter((p) => (config.showPending || !p.pending) && norm(p.name).includes(term));
+    const known = new Set(categories.map((c) => c.id));
+    const list = categories.map((c) => ({ category: c, items: visible.filter((p) => p.category === c.id) }));
+    const orphans = visible.filter((p) => !known.has(p.category)); // categoria não cadastrada
+    if (orphans.length) list.push({ category: { id: "outros", name: "Outros", short: "Outros" }, items: orphans });
+    return list.filter((s) => s.items.length);
+  }, [q]);
 
   const add = (p) => {
     const have = lines.filter((l) => l.id === p.id).reduce((s, l) => s + l.qty, 0);
@@ -37,12 +45,9 @@ export default function App() {
       <Hero />
       <main>
         <input className="search" type="search" placeholder="Buscar no cardápio…" value={q} onChange={(e) => setQ(e.target.value)} />
-        <nav className="cats">
-          {[{ id: "todos", name: "Todos" }, ...categories].map((c) => (
-            <button key={c.id} className={cat === c.id ? "on" : ""} onClick={() => setCat(c.id)}>{c.name}</button>))}
-        </nav>
-        <div className="grid">{list.map((p) => <ProductCard key={p.id} p={p} onAdd={add} />)}</div>
-        {list.length === 0 && <p className="muted">Nenhum item encontrado.</p>}
+        <CategoryNav categories={sections.map((s) => s.category)} />
+        {sections.map((s) => <MenuCategory key={s.category.id} category={s.category} items={s.items} onAdd={add} />)}
+        {sections.length === 0 && <p className="muted">Nenhum item encontrado.</p>}
       </main>
       <footer id="contato">
         <h2>Contato</h2>

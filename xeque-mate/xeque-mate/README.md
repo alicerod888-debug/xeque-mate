@@ -27,16 +27,18 @@ Se o preço promocional for igual ou maior que o original, o site ignora o desco
 `stockManaged: true, stockQuantity: 20` — o cliente não passa de 20 no carrinho. Com `stockQuantity: 0` aparece ESGOTADO. Para repor, mude o número. Use `stockManaged: false` para não controlar quantidade.
 
 ## 7. Cadastrar produto novo
-Copie o modelo comentado em `products.js` para dentro de `realProducts = [ ... ]`, com `id` único (sem espaços/acentos). Para ocupar uma das 84 vagas "a preencher", use o mesmo id dela (ex.: `"burguer-bovino-01"`). Nada de nome, preço ou ingrediente foi inventado: as vagas estão vazias até você preencher.
+Copie o modelo comentado em `products.js` para dentro de `realProducts = [ ... ]`, com `id` único (sem espaços/acentos). O cardápio já vem preenchido com os dados do seu cardápio Diggy (91 itens). Itens com `priceFrom: true` mostram "a partir de".
 
 ## 8. Adicionar foto
+> Neste momento as fotos usam o endereço das imagens do seu cardápio Diggy (campo `image` começa com `https://`). Para usar uma foto sua, envie o arquivo para a pasta e troque o `image` pelo caminho local (ex.: `/images/combos/combo-basic.jpg`).
+
 Coloque o arquivo (ex.: `basic-01-cheddar.jpg`, sem espaços/acentos) em `public/images/burguer-bovino/` e confira se `image: "/images/burguer-bovino/basic-01-cheddar.jpg"` é igual. Sem foto, aparece um espaço reservado.
 
 ## 9. Trocar foto
 Salve a nova imagem com o **mesmo nome** (substitui) ou com nome novo e atualize `image`.
 
 ## 10. Categorias e adicionais
-Categorias: lista `categories` no topo de `products.js` (id = nome da pasta de imagens). Adicionais são itens da categoria `adicionais`; para liberar num burger: `allowedAddons: ["id-do-adicional"]`.
+Categorias: lista `categories` no topo de `products.js`. A **ordem da lista é a ordem das seções** no site; `name` é o título da seção, `short` o texto do botão e `subtitle` a frase abaixo do título. O `id` deve ser igual ao nome da pasta de imagens e ao campo `category` dos produtos. Para um produto aparecer numa seção, basta pôr o `id` dela em `category` (a seção é montada sozinha). Produto com categoria não cadastrada cai na seção "Outros". Adicionais são itens da categoria `adicionais`; para liberar num burger: `allowedAddons: ["id-do-adicional"]`.
 
 ## 11. WhatsApp
 `config.js` → `whatsapp: "5575988381283"` (55 + DDD + número, só dígitos).
@@ -56,8 +58,14 @@ Importe o repositório na Vercel (framework Vite, build `npm run build`, saída 
 ## 15. Problemas
 - Foto não aparece: nome/pasta/extensão diferentes do `image` (maiúsculas importam).
 - Tela branca: veja o erro no terminal (`npm run dev`) — geralmente falta vírgula ou aspas em `products.js`.
-- Ao publicar, ponha `showPending: false` em `config.js` para esconder vagas sem dados.
+- `LISTA-DE-FOTOS.txt` mostra o nome exato e a pasta de cada foto.
 - O vídeo está em `public/videos/abertura.mp4`, cópia idêntica ao original, sem edição.
 
 ## Futuro
 A interface lê dados só de `src/data/products.js`; para criar um painel com login, basta trocar essa fonte por uma API/banco de dados.
+
+## Estrutura do código
+- `src/data/products.js`: categorias e produtos. `src/data/config.js`: dados da loja.
+- `src/App.jsx`: monta a página. `src/components/MenuCategory.jsx`: uma seção do cardápio. `ProductCard.jsx`: um produto. `CategoryNav.jsx`: botões de categoria. `Cart.jsx`: carrinho e WhatsApp. `Hero.jsx`: vídeo e slogan.
+- `src/lib/pricing.js`: regras de preço, desconto e estoque.
+- `src/styles/`: `base.css` (geral), `menu.css` (cardápio), `cart.css` (carrinho).

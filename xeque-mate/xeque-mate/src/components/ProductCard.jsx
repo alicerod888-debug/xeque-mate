@@ -4,6 +4,7 @@ export default function ProductCard({ p, onAdd }) {
   const [imgOk, setImgOk] = useState(true);
   const st = status(p);
   const buyable = st === "ok";
+  const from = p.priceFrom ? <small className="muted">a partir de </small> : null;
   return (
     <article className={`card ${buyable ? "" : "off"}`}>
       <div className="thumb">
@@ -17,8 +18,8 @@ export default function ProductCard({ p, onAdd }) {
       {p.description && <p className="desc">{p.description}</p>}
       <div className="price">
         {st === "pending" ? <span className="muted">Preço a definir</span>
-          : buyable && promoValid(p) ? (<><s>{brl(p.price)}</s> <b>{brl(finalPrice(p))}</b> <em>{discountPct(p)}% OFF</em></>)
-          : <b className={buyable ? "" : "muted"}>{brl(p.price)}</b>}
+          : buyable && promoValid(p) ? (<>{from}<s>{brl(p.price)}</s> <b>{brl(finalPrice(p))}</b> <em>{discountPct(p)}% OFF</em></>)
+          : <>{from}<b className={buyable ? "" : "muted"}>{brl(p.price)}</b></>}
       </div>
       <button disabled={!buyable} onClick={() => onAdd(p)}>
         {buyable ? "Adicionar" : st === "pending" ? "Em breve" : "Indisponível"}

@@ -13,7 +13,7 @@ export function buildMessage(lines, note) {
   let t = `*Pedido - ${config.name}*\n\n`;
   lines.forEach((l, i) => {
     const p = byId(l.id);
-    t += `${i + 1}) ${l.qty}x ${p.name}\n   Preço unit.: ${brl(finalPrice(p))}`;
+    t += `${i + 1}) ${l.qty}x ${p.name}\n   Preço unit.: ${p.priceFrom ? "a partir de " : ""}${brl(finalPrice(p))}`;
     if (finalPrice(p) < p.price) t += ` (promoção; de ${brl(p.price)})`;
     t += "\n";
     l.addons.forEach((a) => (t += `   + ${byId(a).name}: ${brl(finalPrice(byId(a)))}\n`));
