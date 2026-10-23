@@ -71,7 +71,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/promocoes/small-promocional.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/3d4feb8a-19b5-41d8-bd25-666f808e9120-low.jpg",
     "order": 1,
     "featured": true,
     "allowedAddons": [
@@ -99,7 +99,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/promocoes/toscano-salada.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/df801ad0-168b-4193-af42-b1502547a2fd-low.jpg",
     "order": 2,
     "featured": true,
     "allowedAddons": [
@@ -127,7 +127,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/sobremesas/pudim-no-copo-xeque.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/29809f43-c890-4f86-ae65-80d9d512a06c-low.jpg",
     "order": 3,
     "featured": true
   },
@@ -142,7 +142,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/barcas/barca-g-gourmet.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/54682e7b-f958-461c-805c-700077af25b6-low.jpg",
     "order": 4,
     "featured": false,
     "priceFrom": true
@@ -158,7 +158,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/barcas/barca-g-simples.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/1c7b27ad-6ada-4a39-8cfd-aa85db41b249-low.jpg",
     "order": 5,
     "featured": false,
     "priceFrom": true
@@ -174,7 +174,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/barcas/barca-p-individual.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/be14f6ea-1258-4370-82bc-b851511fdf60-low.jpg",
     "order": 6,
     "featured": false
   },
@@ -189,7 +189,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/barcas/combo-na-caixa-2-pessoas.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/99341a2e-1025-47f6-94cf-6559db9598f3-low.jpg",
     "order": 7,
     "featured": false,
     "priceFrom": true
@@ -205,7 +205,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/barcas/combo-na-caixa-1-pessoa.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/fd6a59e9-ed9d-4f11-a170-e3adcce734b2-low.jpg",
     "order": 8,
     "featured": true
   },
@@ -239,7 +239,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/entradas/batata-frita-g-500g.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/cabe2637-413b-4b43-ab6b-ee33690745fd-low.jpg",
     "order": 10,
     "featured": false,
     "allowedAddons": [
@@ -258,7 +258,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/entradas/batata-gourmet-p-250g.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/d5053ef5-35c5-478e-9883-d15d5104dd50-low.jpg",
     "order": 11,
     "featured": false,
     "allowedAddons": [
@@ -277,7 +277,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/entradas/batata-gourmet-g-500g.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/0a2777ad-f8da-4ce1-8e74-63f53de38ab7-low.jpg",
     "order": 12,
     "featured": false,
     "allowedAddons": [
@@ -296,7 +296,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/entradas/nuggets-300g.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/e4953eba-feaa-4a73-977a-ea0f3edc4b19-low.jpg",
     "order": 13,
     "featured": false,
     "allowedAddons": [
@@ -315,7 +315,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/entradas/coxinha-de-frango-porcao.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/718779d9-a6b1-468a-a635-0d8be33c6595-low.jpg",
     "order": 14,
     "featured": false,
     "allowedAddons": [
@@ -334,7 +334,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/entradas/onion-rings-6un.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/b8a4888c-96fc-4ecf-87b1-096638f618dd-low.jpg",
     "order": 15,
     "featured": false,
     "allowedAddons": [
@@ -353,7 +353,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/entradas/onion-rings-g-15un.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/98c65172-5bb2-425c-891f-fd040d87d427-low.jpg",
     "order": 16,
     "featured": false,
     "allowedAddons": [
@@ -372,7 +372,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/chicken/chicken-basic.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/7b89054d-75cf-4ca8-89b9-f152e7f18a19-low.jpg",
     "order": 17,
     "featured": true,
     "allowedAddons": [
@@ -399,7 +399,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/chicken/chicken-salada.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/bb3d3651-cfdf-4074-b742-7a1d30e3eee1-low.jpg",
     "order": 18,
     "featured": false,
     "allowedAddons": [
@@ -426,7 +426,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/chicken/chicken-bacon.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/1e40c1bb-ab84-4b57-9bfd-e098a9530774-low.jpg",
     "order": 19,
     "featured": false,
     "allowedAddons": [
@@ -453,7 +453,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/burguer-bovino/basic-01-cheddar.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/4bb9f120-41b1-427e-9ab5-fecc287ccc4a-low.jpg",
     "order": 20,
     "featured": false,
     "allowedAddons": [
@@ -481,7 +481,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/burguer-bovino/basic-02-mussarela.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/f10033b3-80f6-4258-bf9e-c48ce1b6db2d-low.jpg",
     "order": 21,
     "featured": false,
     "allowedAddons": [
@@ -509,7 +509,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/burguer-bovino/basic-duplo.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/c0652770-04e7-4ec0-bff8-ccd2eca9c98c-low.jpg",
     "order": 22,
     "featured": true,
     "allowedAddons": [
@@ -537,7 +537,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/burguer-bovino/basic-duplo-bacon.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/34d02418-607c-4b34-ab94-9af430523af5-low.jpg",
     "order": 23,
     "featured": true,
     "allowedAddons": [
@@ -565,7 +565,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/burguer-bovino/small.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/929fa502-4dff-4e99-be88-7bcdbeb40f12-low.jpg",
     "order": 24,
     "featured": false,
     "allowedAddons": [
@@ -593,7 +593,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/burguer-bovino/smash-cheddar.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/666ea555-c9c2-4f25-8683-e39c9c10e01e-low.jpg",
     "order": 25,
     "featured": false,
     "allowedAddons": [
@@ -621,7 +621,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/burguer-bovino/smash-salada.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/ff31ffe3-9d3f-4282-8a54-03c3cb1e2e08-low.jpg",
     "order": 26,
     "featured": false,
     "allowedAddons": [
@@ -649,7 +649,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/burguer-bovino/big-bacon.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/c5669c33-3397-4246-9d3f-23bd4cdb414e-low.jpg",
     "order": 27,
     "featured": false,
     "allowedAddons": [
@@ -677,7 +677,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/burguer-bovino/medium.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/7f6edb97-a555-45ed-86e2-474a9edb1576-low.jpg",
     "order": 28,
     "featured": false,
     "allowedAddons": [
@@ -705,7 +705,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/burguer-bovino/mega.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/df0b5cc7-7dfe-4cb9-bad0-8c1d24f6fd77-low.jpg",
     "order": 29,
     "featured": false,
     "allowedAddons": [
@@ -733,7 +733,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/burguer-bovino/classico-xeque.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/812977dc-3b9d-417d-a8a9-eaabafecc4ff-low.jpg",
     "order": 30,
     "featured": false,
     "allowedAddons": [
@@ -761,7 +761,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/burguer-bovino/duplo-smash-cheddar.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/87cf5778-cf8e-4789-a3c2-984cdd4c26ea-low.jpg",
     "order": 31,
     "featured": true,
     "allowedAddons": [
@@ -789,7 +789,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/burguer-bovino/duplo-big-bacon.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/f03e1726-9d08-4e4f-870e-1cdcd4e1a1e9-low.jpg",
     "order": 32,
     "featured": false,
     "allowedAddons": [
@@ -817,7 +817,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/burguer-bovino/super-mega.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/57735e0e-cc6e-49f6-9a6b-cec555bd780c-low.jpg",
     "order": 33,
     "featured": false,
     "allowedAddons": [
@@ -845,7 +845,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/burguer-bovino/triplo-big-bacon.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/3789fad8-91ff-44f0-b908-ebca5f097753-low.jpg",
     "order": 34,
     "featured": false,
     "allowedAddons": [
@@ -873,7 +873,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/burguer-bovino/triplo-smash-cheddar.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/ddffe548-4127-4192-b270-50854353a685-low.jpg",
     "order": 35,
     "featured": false,
     "allowedAddons": [
@@ -901,7 +901,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/burguer-bovino/small-g.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/bc925c05-ad75-489c-b06e-17077d28c39b-low.jpg",
     "order": 36,
     "featured": false,
     "allowedAddons": [
@@ -929,7 +929,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/especiais/supremo-smash.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/d9103e70-69ad-4475-aabb-223a34f7e9f0-low.jpg",
     "order": 37,
     "featured": false,
     "allowedAddons": [
@@ -957,7 +957,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/especiais/supremo-smash-triplo.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/9ed826d6-3d7b-484c-b8f1-35eee17848ab-low.jpg",
     "order": 38,
     "featured": false,
     "allowedAddons": [
@@ -985,7 +985,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/especiais/baiano.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/83916885-c491-4467-9fc2-277f568c42bc-low.jpg",
     "order": 39,
     "featured": false,
     "allowedAddons": [
@@ -1013,7 +1013,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/toscano-burgers/toscano-basic.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/71a154b5-491e-4198-97e6-e63bead93969-low.jpg",
     "order": 40,
     "featured": true,
     "allowedAddons": [
@@ -1041,7 +1041,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/toscano-burgers/toscano-bacon.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/d7a377ee-8b67-4d62-9888-846e18298f4a-low.jpg",
     "order": 41,
     "featured": false,
     "allowedAddons": [
@@ -1069,7 +1069,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/toscano-burgers/duplo-toscano.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/27ba4e3b-03f3-4c7e-980d-28c438883729-low.jpg",
     "order": 42,
     "featured": false,
     "allowedAddons": [
@@ -1097,7 +1097,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/combos/combo-basic.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/28675bc8-19ff-4dde-81e1-ec455c1b17c0-low.jpg",
     "order": 43,
     "featured": true
   },
@@ -1112,7 +1112,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/combos/combo-small.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/956fda6d-9d59-47c3-9936-e91012ac5c7a-low.jpg",
     "order": 44,
     "featured": false
   },
@@ -1127,7 +1127,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/combos/combo-smash-cheddar.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/90356260-7684-480c-ac23-ed32a668a6d9-low.jpg",
     "order": 45,
     "featured": false
   },
@@ -1142,7 +1142,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/combos/combo-big-bacon.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/156e0dfa-95ca-46c0-ab03-f65fc991efcd-low.jpg",
     "order": 46,
     "featured": false
   },
@@ -1157,7 +1157,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/combos/combo-mega.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/3b2a21aa-b78f-4b75-b8d6-bda089837c21-low.jpg",
     "order": 47,
     "featured": false
   },
@@ -1172,7 +1172,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/combos/combo-familia-3.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/957d8bed-8924-4e48-8172-248ee6ea90e6-low.jpg",
     "order": 48,
     "featured": false
   },
@@ -1187,7 +1187,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/combos/coca-cola-lata-small-fritas.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/98c29c93-a545-4b52-a5e1-25f61a045279-low.jpg",
     "order": 49,
     "featured": false
   },
@@ -1202,7 +1202,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/combos/coca-cola-smash-cheddar-fritas.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/d499cd05-a0ce-4433-a465-3ed9a82eb8c8-low.jpg",
     "order": 50,
     "featured": false
   },
@@ -1217,7 +1217,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/combos/coca-cola-big-bacon-fritas.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/45fbd39a-7b9b-4134-b05a-68ddb2f3e53f-low.jpg",
     "order": 51,
     "featured": false
   },
@@ -1232,7 +1232,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/combos/combo-casal.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/f675cb47-f75c-4015-b848-4895fd8061d8-low.jpg",
     "order": 52,
     "featured": true
   },
@@ -1247,7 +1247,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/exclusivos/saquinho-de-molho-de-alho.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/a3d1eefc-1b24-4029-8579-0efd273b1079-low.jpg",
     "order": 53,
     "featured": true
   },
@@ -1262,7 +1262,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/coca-cola-lata-original.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/3b12fffb-a217-4b41-a0ad-71eaab692a2d-low.jpg",
     "order": 54,
     "featured": false
   },
@@ -1277,7 +1277,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/coca-cola-zero-acucar-lata.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/1e8a296a-2684-49a0-8c08-dcc823dabc01-low.jpg",
     "order": 55,
     "featured": false
   },
@@ -1292,7 +1292,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/coca-cola-original-1l.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/7386f19b-e584-4b0c-80f3-ae1f8272329c-low.jpg",
     "order": 56,
     "featured": false
   },
@@ -1307,7 +1307,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/coca-cola-zero-acucar-1l.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/74f9408d-730e-4a33-81ac-191d216e26c6-low.jpg",
     "order": 57,
     "featured": false
   },
@@ -1322,7 +1322,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/pepsi-lata.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/778e0fa0-7d1a-4e92-a99c-364f7f1c2dcf-low.jpg",
     "order": 58,
     "featured": false
   },
@@ -1337,7 +1337,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/pepsi-1l.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/bf1c3cdc-0734-4cee-ac7b-c15e15c5f055-low.jpg",
     "order": 59,
     "featured": false
   },
@@ -1352,7 +1352,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/guarana-antarctica-lata.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/e83a22c7-0840-4f73-bd37-af348dd606c0-low.jpg",
     "order": 60,
     "featured": false
   },
@@ -1367,7 +1367,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/guarana-antarctica-1l.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/22d1067c-8396-40c4-a95f-5b48b2e36734-low.jpg",
     "order": 61,
     "featured": false
   },
@@ -1382,7 +1382,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/pepsi-black-lata.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/8c3bb7b1-7a46-4a66-91ff-dc9c11513cf2-low.jpg",
     "order": 62,
     "featured": false
   },
@@ -1397,7 +1397,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/guarana-antarctica-200ml.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/5aa60a42-3a97-4e2d-9fed-5c4441e4248d-low.jpg",
     "order": 63,
     "featured": false
   },
@@ -1412,7 +1412,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/pepsi-200ml.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/7f428ac9-e4d6-4b6e-ab7d-dcbcb8682412-low.jpg",
     "order": 64,
     "featured": false
   },
@@ -1427,7 +1427,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/agua-mineral-500ml.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/d955dfcf-c347-49e4-b3a0-41ad1ee56c9f-low.jpg",
     "order": 65,
     "featured": false
   },
@@ -1442,7 +1442,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/monster-energy.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/1c2ed990-022b-4fd0-a175-16f7e97b7249-low.jpg",
     "order": 66,
     "featured": false
   },
@@ -1457,7 +1457,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/sprite-limao-zero-acucar-lata.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/4aae0a23-7171-4d55-b493-abbe12217121-low.jpg",
     "order": 67,
     "featured": false
   },
@@ -1472,7 +1472,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/fanta-lata-350ml.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/16377cce-bfe5-4808-a3b0-092d42ca0806-low.jpg",
     "order": 68,
     "featured": false
   },
@@ -1487,7 +1487,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/sprite-lemon-fresh.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/9e890003-7ce2-40c3-8472-17f003ddaa9c-low.jpg",
     "order": 69,
     "featured": false
   },
@@ -1502,7 +1502,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/coca-cola-original-200ml.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/97b77131-a35d-4126-8374-e4adfc662ab1-low.jpg",
     "order": 70,
     "featured": false
   },
@@ -1517,7 +1517,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/guarana-com-acai-frutiba.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/42e6460c-a4aa-4284-bebb-eeb95c5f4b1d-low.jpg",
     "order": 71,
     "featured": true
   },
@@ -1532,7 +1532,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/fanta-laranja-200ml.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/5d232a6b-2737-40bf-b7db-da3a9a95754e-low.jpg",
     "order": 72,
     "featured": false
   },
@@ -1547,7 +1547,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/bebidas/cha-mate-leao-lata.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/5fe0a562-7711-4b40-a4c4-18a7ee5084b5-low.jpg",
     "order": 73,
     "featured": true
   },
@@ -1562,7 +1562,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/adicionais/adicional-de-carne-100g.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/7fcb2fd9-bd52-4649-bb0d-552f03d53770-low.jpg",
     "order": 74,
     "featured": false
   },
@@ -1577,7 +1577,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/adicionais/adicional-de-linguica-toscana.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/83925554-3b0e-479b-a3e1-f0ef6e9675af-low.jpg",
     "order": 75,
     "featured": false
   },
@@ -1592,7 +1592,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/adicionais/ovo-frito.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/3afac985-ffae-4cbc-bda4-403396642aab-low.jpg",
     "order": 76,
     "featured": false
   },
@@ -1607,7 +1607,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/adicionais/adicional-mussarela.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/e0c2b362-dc84-4aaa-998a-ee2efac9d576-low.jpg",
     "order": 77,
     "featured": false
   },
@@ -1622,7 +1622,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/adicionais/cheddar-extra.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/d1795fed-d04b-4891-87e3-18c17af89542-low.jpg",
     "order": 78,
     "featured": false
   },
@@ -1637,7 +1637,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/adicionais/adicional-bacon.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/74aa0af9-65d8-4231-8dee-54d8c0b3fd69-low.jpg",
     "order": 79,
     "featured": false
   },
@@ -1652,7 +1652,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/adicionais/adicional-salada.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/1db7d3fb-2031-49f3-bf84-21888e42566a-low.jpg",
     "order": 80,
     "featured": false
   },
@@ -1667,7 +1667,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/adicionais/adicional-cebola-caramelizada.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/4ceb3462-0669-4ba0-a05d-24f6d53cb05d-low.jpg",
     "order": 81,
     "featured": false
   },
@@ -1682,7 +1682,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/adicionais/adicional-cebola-empanada.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/889794f6-db9e-434f-83dd-ef8f9afaee06-low.jpg",
     "order": 82,
     "featured": false
   },
@@ -1697,7 +1697,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/adicionais/adicional-de-molho-de-alho.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/ab9bfb85-aa61-4bce-914e-3ed356ec6f47-low.jpg",
     "order": 83,
     "featured": true
   },
@@ -1712,7 +1712,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/adicionais/sache-ketchup.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/5dcb8225-2384-4258-a1bf-bba99da46378-low.jpg",
     "order": 84,
     "featured": false
   },
@@ -1727,7 +1727,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/adicionais/cheddar-fatiado.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/8a027f07-8980-49fd-86a7-9791527e7949-low.jpg",
     "order": 85,
     "featured": false
   },
@@ -1742,7 +1742,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/cervejas/heineken-330ml.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/1d7b2532-1c78-4982-adc9-49057770bec8-low.jpg",
     "order": 86,
     "featured": false
   },
@@ -1757,7 +1757,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/cervejas/cerveja-praya-lager.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/92cf80da-c944-4f9e-826e-2f30b1f1b83a-low.jpg",
     "order": 87,
     "featured": false
   },
@@ -1772,7 +1772,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/cervejas/amstel-lata.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/fc67111f-8e89-4082-bc84-7862754c675c-low.jpg",
     "order": 88,
     "featured": false
   },
@@ -1787,7 +1787,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/cervejas/skol-lata.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/365867bd-051f-41cf-896a-c931495b1e1d-low.jpg",
     "order": 89,
     "featured": false
   },
@@ -1802,7 +1802,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/cervejas/itaipava-lata.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/b4f804c1-0acc-4007-b9c5-62b261b81fbb-low.jpg",
     "order": 90,
     "featured": false
   },
@@ -1817,7 +1817,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/cervejas/amstel-ultra-garrafa.jpg",
+    "image": "https://assets.diggy.menu/menu/661593c187df459f757fedc7/products/56d1a129-1423-4b7c-99d5-38b1f546f344-low.jpg",
     "order": 91,
     "featured": false
   }
