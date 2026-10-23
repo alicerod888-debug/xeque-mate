@@ -7,3 +7,4 @@
 .addons{grid-column:1/-1;display:grid;gap:4px;font-size:.85rem}
 textarea{min-height:70px;border-radius:8px;background:var(--panel);color:var(--tx);border:1px solid #333;padding:8px}
 .total{display:flex;justify-content:space-between;font-size:1.1rem}.wa{width:100%;padding:14px}
+.closed-msg{margin:0;padding:10px;border:1px solid #5a2a26;border-radius:8px;background:#1d1210;color:#e8a9a3;font-size:.85rem}

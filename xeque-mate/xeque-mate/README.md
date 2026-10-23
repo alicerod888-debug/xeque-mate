@@ -69,3 +69,6 @@ A interface lê dados só de `src/data/products.js`; para criar um painel com lo
 - `src/App.jsx`: monta a página. `src/components/MenuCategory.jsx`: uma seção do cardápio. `ProductCard.jsx`: um produto. `CategoryNav.jsx`: botões de categoria. `Cart.jsx`: carrinho e WhatsApp. `Hero.jsx`: vídeo e slogan.
 - `src/lib/pricing.js`: regras de preço, desconto e estoque.
 - `src/styles/`: `base.css` (geral), `menu.css` (cardápio), `cart.css` (carrinho).
+
+## Horário de funcionamento
+Em `src/data/config.js`, `storeHours` define a abertura e o fechamento (hora cheia, fuso de Brasília). Fora do horário o cardápio continua visível, mas o envio do pedido pelo carrinho fica bloqueado. Atenção: não há servidor; a regra vale no site e usa o relógio do aparelho (só o fuso é fixo em Brasília).

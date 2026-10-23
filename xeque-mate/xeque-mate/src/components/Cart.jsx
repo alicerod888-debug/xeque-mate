@@ -25,7 +25,7 @@ export function buildMessage(lines, note) {
   return t;
 }
 
-export default function Cart({ lines, setLines, note, setNote, open, setOpen }) {
+export default function Cart({ lines, setLines, note, setNote, open, setOpen, storeOpen = true, recheckStore = () => true }) {
   const qtyOf = (id) => lines.filter((l) => l.id === id).reduce((s, l) => s + l.qty, 0);
   const change = (key, d) => setLines((ls) => ls.flatMap((l) => {
     if (l.key !== key) return [l];
@@ -37,7 +37,10 @@ export default function Cart({ lines, setLines, note, setNote, open, setOpen }) 
   const toggleAddon = (key, a) => setLines((ls) => ls.map((l) => l.key !== key ? l :
     { ...l, addons: l.addons.includes(a) ? l.addons.filter((x) => x !== a) : [...l.addons, a] }));
   const total = lines.reduce((s, l) => s + lineTotal(l), 0);
-  const send = () => window.open(`https://wa.me/${config.whatsapp}?text=${encodeURIComponent(buildMessage(lines, note))}`, "_blank");
+  const send = () => {
+    if (!recheckStore()) return; // confere o horário de novo no momento do clique
+    window.open(`https://wa.me/${config.whatsapp}?text=${encodeURIComponent(buildMessage(lines, note))}`, "_blank");
+  };
   if (!open) return null;
   return (
     <aside className="cart" role="dialog" aria-label="Carrinho">
@@ -58,7 +61,8 @@ export default function Cart({ lines, setLines, note, setNote, open, setOpen }) 
       <textarea placeholder="Observações do pedido" value={note} onChange={(e) => setNote(e.target.value)} />
       <div className="total">Total dos produtos <b>{brl(total)}</b></div>
       <p className="muted">Entrega: {config.deliveryFee}. Pagamento: {config.paymentInfo}. O pedido só vale após a resposta da loja no WhatsApp.</p>
-      <button className="wa" disabled={!lines.length} onClick={send}>Enviar pedido pelo WhatsApp</button>
+      {!storeOpen && <p className="closed-msg">Estamos fechados no momento. Funcionamos todos os dias, das 17h às 23h. Seu pedido continua salvo aqui e poderá ser enviado a partir das 17h.</p>}
+      <button className="wa" disabled={!lines.length || !storeOpen} onClick={send}>Enviar pedido pelo WhatsApp</button>
     </aside>
   );
 }

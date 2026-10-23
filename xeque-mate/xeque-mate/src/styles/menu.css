@@ -17,3 +17,6 @@
 .menu-sec h2{margin:0;font-size:1.6rem;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:10px}
 .menu-sec h2::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,var(--gold),transparent)}
 .menu-sec .sub{margin:4px 0 14px;color:var(--mut);font-size:.9rem}
+.store-status{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:0 0 10px;font-size:.8rem;color:var(--mut)}
+.store-status b{letter-spacing:.06em}.store-status b::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;background:currentColor}
+.store-status.is-open b{color:#4cc27a}.store-status.is-closed b{color:#e0675e}

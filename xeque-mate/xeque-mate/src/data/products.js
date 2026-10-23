@@ -247,7 +247,7 @@ export const products = [
     "stockManaged": false,
     "stockQuantity": 0,
     "available": true,
-    "image": "/images/entradas/batata-frita-p-250g.jpg",
+    "image": "/images/entradas/batata-frita-p-250g.png",
     "order": 9,
     "featured": false,
     "allowedAddons": [
