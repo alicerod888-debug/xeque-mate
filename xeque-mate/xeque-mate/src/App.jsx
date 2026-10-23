@@ -58,7 +58,7 @@ export default function App() {
       <footer id="contato">
         <h2>Contato</h2>
         <p>{config.address}</p>
-        <p>Horário: {config.openingHours} · Entrega: {config.deliveryTime}</p>
+        <p>Horário: {config.openingHours} · {config.deliveryTime}</p>
         <p><a href={config.instagram} target="_blank" rel="noreferrer">Instagram</a> · <a href={config.mapsUrl} target="_blank" rel="noreferrer">Ver no Google Maps</a> · <a href={`https://wa.me/${config.whatsapp}`} target="_blank" rel="noreferrer">Pedir pelo WhatsApp</a></p>
       </footer>
       <Cart lines={lines} setLines={setLines} note={note} setNote={setNote} open={open} setOpen={setOpen} storeOpen={storeOpen} recheckStore={recheckStore} />
